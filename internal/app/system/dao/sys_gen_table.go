@@ -5,7 +5,7 @@
 package dao
 
 import (
-	"github.com/xiaodingding/iotfast/internal/app/system/dao/internal"
+	"github.com/morgeq/iotfast/internal/app/system/dao/internal"
 )
 
 // internalSysGenTableDao is internal type for wrapping internal DAO implements.

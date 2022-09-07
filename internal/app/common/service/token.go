@@ -10,9 +10,9 @@ package service
 import (
 	"context"
 
-	"github.com/xiaodingding/iotfast/internal/app/common/consts"
-	"github.com/xiaodingding/iotfast/internal/app/common/model"
-	gtoken "github.com/xiaodingding/iotfast/library/libGtoken"
+	"github.com/morgeq/iotfast/internal/app/common/consts"
+	"github.com/morgeq/iotfast/internal/app/common/model"
+	gtoken "github.com/morgeq/iotfast/library/libGtoken"
 
 	"github.com/gogf/gf/v2/net/ghttp"
 )

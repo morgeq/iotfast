@@ -7,9 +7,9 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/xiaodingding/iotfast/server/mqtt/config"
-	"github.com/xiaodingding/iotfast/server/mqtt/pkg/packets"
-	"github.com/xiaodingding/iotfast/server/mqtt/server"
+	"github.com/morgeq/iotfast/server/mqtt/config"
+	"github.com/morgeq/iotfast/server/mqtt/pkg/packets"
+	"github.com/morgeq/iotfast/server/mqtt/server"
 )
 
 func TestAuth_OnBasicAuthWrapper(t *testing.T) {

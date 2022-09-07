@@ -4,11 +4,11 @@ import (
 	"context"
 	"net"
 
-	"github.com/xiaodingding/iotfast/server/mqtt/pkg/packets"
+	"github.com/morgeq/iotfast/server/mqtt/pkg/packets"
 
-	"github.com/xiaodingding/iotfast/server/mqtt/persistence/subscription"
+	"github.com/morgeq/iotfast/server/mqtt/persistence/subscription"
 
-	gmqtt "github.com/xiaodingding/iotfast/server/mqtt"
+	gmqtt "github.com/morgeq/iotfast/server/mqtt"
 )
 
 type Hooks struct {

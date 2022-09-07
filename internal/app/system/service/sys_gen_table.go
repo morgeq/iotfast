@@ -16,17 +16,17 @@ import (
 	"io"
 	"unicode"
 
-	"github.com/xiaodingding/iotfast/api/v1/system"
+	"github.com/morgeq/iotfast/api/v1/system"
 
 	"os"
 	"strings"
 
-	comService "github.com/xiaodingding/iotfast/internal/app/common/service"
-	systemConsts "github.com/xiaodingding/iotfast/internal/app/system/consts"
-	"github.com/xiaodingding/iotfast/internal/app/system/dao"
-	"github.com/xiaodingding/iotfast/internal/app/system/model"
-	"github.com/xiaodingding/iotfast/internal/app/system/model/entity"
-	"github.com/xiaodingding/iotfast/library/libErr"
+	comService "github.com/morgeq/iotfast/internal/app/common/service"
+	systemConsts "github.com/morgeq/iotfast/internal/app/system/consts"
+	"github.com/morgeq/iotfast/internal/app/system/dao"
+	"github.com/morgeq/iotfast/internal/app/system/model"
+	"github.com/morgeq/iotfast/internal/app/system/model/entity"
+	"github.com/morgeq/iotfast/library/libErr"
 
 	"github.com/gogf/gf/v2/database/gdb"
 	"github.com/gogf/gf/v2/encoding/gcompress"

@@ -10,9 +10,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	gmqtt "github.com/xiaodingding/iotfast/server/mqtt"
-	"github.com/xiaodingding/iotfast/server/mqtt/persistence/subscription"
-	"github.com/xiaodingding/iotfast/server/mqtt/pkg/packets"
+	gmqtt "github.com/morgeq/iotfast/server/mqtt"
+	"github.com/morgeq/iotfast/server/mqtt/persistence/subscription"
+	"github.com/morgeq/iotfast/server/mqtt/pkg/packets"
 )
 
 type subscriptionService struct {

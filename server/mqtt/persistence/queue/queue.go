@@ -3,7 +3,7 @@ package queue
 import (
 	"time"
 
-	"github.com/xiaodingding/iotfast/server/mqtt/pkg/packets"
+	"github.com/morgeq/iotfast/server/mqtt/pkg/packets"
 )
 
 // InitOptions is used to pass some required client information to the queue.Init()

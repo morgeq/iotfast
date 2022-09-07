@@ -3,8 +3,8 @@ package server
 import (
 	"sync"
 
-	"github.com/xiaodingding/iotfast/server/mqtt/pkg/bitmap"
-	"github.com/xiaodingding/iotfast/server/mqtt/pkg/packets"
+	"github.com/morgeq/iotfast/server/mqtt/pkg/bitmap"
+	"github.com/morgeq/iotfast/server/mqtt/pkg/packets"
 )
 
 func newPacketIDLimiter(limit uint16) *packetIDLimiter {

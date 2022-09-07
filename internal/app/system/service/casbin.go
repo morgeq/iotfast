@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/xiaodingding/iotfast/internal/app/system/dao"
-	"github.com/xiaodingding/iotfast/internal/app/system/model/entity"
+	"github.com/morgeq/iotfast/internal/app/system/dao"
+	"github.com/morgeq/iotfast/internal/app/system/model/entity"
 
 	"github.com/casbin/casbin/v2"
 	"github.com/casbin/casbin/v2/model"

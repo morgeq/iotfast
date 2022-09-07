@@ -12,18 +12,18 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/xiaodingding/iotfast/api/v1/system"
-	"github.com/xiaodingding/iotfast/internal/app/system/dao"
-	"github.com/xiaodingding/iotfast/internal/app/system/model/do"
+	"github.com/morgeq/iotfast/api/v1/system"
+	"github.com/morgeq/iotfast/internal/app/system/dao"
+	"github.com/morgeq/iotfast/internal/app/system/model/do"
 
-	internal_dao "github.com/xiaodingding/iotfast/internal/app/system/dao"
-	internal_entity "github.com/xiaodingding/iotfast/internal/app/system/model/entity"
+	internal_dao "github.com/morgeq/iotfast/internal/app/system/dao"
+	internal_entity "github.com/morgeq/iotfast/internal/app/system/model/entity"
 
-	"github.com/xiaodingding/iotfast/internal/app/system/consts"
-	"github.com/xiaodingding/iotfast/internal/app/system/model"
-	"github.com/xiaodingding/iotfast/internal/app/system/model/entity"
-	"github.com/xiaodingding/iotfast/library/libErr"
-	"github.com/xiaodingding/iotfast/library/libUtils"
+	"github.com/morgeq/iotfast/internal/app/system/consts"
+	"github.com/morgeq/iotfast/internal/app/system/model"
+	"github.com/morgeq/iotfast/internal/app/system/model/entity"
+	"github.com/morgeq/iotfast/library/libErr"
+	"github.com/morgeq/iotfast/library/libUtils"
 
 	"github.com/gogf/gf/v2/container/gset"
 	"github.com/gogf/gf/v2/database/gdb"

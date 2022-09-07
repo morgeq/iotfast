@@ -5,9 +5,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/xiaodingding/iotfast/server/mqtt/pkg/codes"
-	"github.com/xiaodingding/iotfast/server/mqtt/pkg/packets"
-	"github.com/xiaodingding/iotfast/server/mqtt/server"
+	"github.com/morgeq/iotfast/server/mqtt/pkg/codes"
+	"github.com/morgeq/iotfast/server/mqtt/pkg/packets"
+	"github.com/morgeq/iotfast/server/mqtt/server"
 )
 
 func (a *Auth) HookWrapper() server.HookWrapper {

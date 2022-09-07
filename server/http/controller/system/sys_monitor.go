@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/xiaodingding/iotfast/api/v1/system"
-	"github.com/xiaodingding/iotfast/library/libUtils"
+	"github.com/morgeq/iotfast/api/v1/system"
+	"github.com/morgeq/iotfast/library/libUtils"
 
 	"github.com/gogf/gf/v2/os/gtime"
 	"github.com/gogf/gf/v2/util/gconv"

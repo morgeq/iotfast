@@ -1,18 +1,18 @@
 package persistence
 
 import (
-	"github.com/xiaodingding/iotfast/server/mqtt/persistence/queue"
-	mem_queue "github.com/xiaodingding/iotfast/server/mqtt/persistence/queue/mem"
-	"github.com/xiaodingding/iotfast/server/mqtt/persistence/session"
-	mem_session "github.com/xiaodingding/iotfast/server/mqtt/persistence/session/mem"
-	"github.com/xiaodingding/iotfast/server/mqtt/persistence/subscription"
-	mem_sub "github.com/xiaodingding/iotfast/server/mqtt/persistence/subscription/mem"
-	"github.com/xiaodingding/iotfast/server/mqtt/persistence/unack"
-	mem_unack "github.com/xiaodingding/iotfast/server/mqtt/persistence/unack/mem"
+	"github.com/morgeq/iotfast/server/mqtt/persistence/queue"
+	mem_queue "github.com/morgeq/iotfast/server/mqtt/persistence/queue/mem"
+	"github.com/morgeq/iotfast/server/mqtt/persistence/session"
+	mem_session "github.com/morgeq/iotfast/server/mqtt/persistence/session/mem"
+	"github.com/morgeq/iotfast/server/mqtt/persistence/subscription"
+	mem_sub "github.com/morgeq/iotfast/server/mqtt/persistence/subscription/mem"
+	"github.com/morgeq/iotfast/server/mqtt/persistence/unack"
+	mem_unack "github.com/morgeq/iotfast/server/mqtt/persistence/unack/mem"
 
-	"github.com/xiaodingding/iotfast/server/mqtt/config"
+	"github.com/morgeq/iotfast/server/mqtt/config"
 
-	"github.com/xiaodingding/iotfast/server/mqtt/server"
+	"github.com/morgeq/iotfast/server/mqtt/server"
 )
 
 func init() {

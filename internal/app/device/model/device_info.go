@@ -1,7 +1,7 @@
 // ==========================================================================
 // 物联网快速开发自动生成model代码，无需手动修改，重新生成会自动覆盖.
 // 生成日期：2022-06-21 22:06:17
-// 生成路径: github.com/xiaodingding/iotfast/internal/app/model/entity/device_info.go
+// 生成路径: github.com/morgeq/iotfast/internal/app/model/entity/device_info.go
 // 生成人：dwx
 // ==========================================================================
 
@@ -9,7 +9,7 @@ package model
 
 import (
 	"github.com/gogf/gf/v2/os/gtime"
-	"github.com/xiaodingding/iotfast/internal/app/device/model/entity"
+	"github.com/morgeq/iotfast/internal/app/device/model/entity"
 )
 
 // DeviceInfo is the golang structure for table device_info.

@@ -3,7 +3,7 @@ package system
 import (
 	"fmt"
 
-	"github.com/xiaodingding/iotfast/internal/app/system/model"
+	"github.com/morgeq/iotfast/internal/app/system/model"
 
 	"github.com/gogf/gf/v2/frame/g"
 )

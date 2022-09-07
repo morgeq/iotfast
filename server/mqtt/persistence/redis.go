@@ -3,18 +3,18 @@ package persistence
 import (
 	redigo "github.com/gomodule/redigo/redis"
 
-	"github.com/xiaodingding/iotfast/server/mqtt/persistence/queue"
-	redis_queue "github.com/xiaodingding/iotfast/server/mqtt/persistence/queue/redis"
-	"github.com/xiaodingding/iotfast/server/mqtt/persistence/session"
-	redis_sess "github.com/xiaodingding/iotfast/server/mqtt/persistence/session/redis"
-	"github.com/xiaodingding/iotfast/server/mqtt/persistence/subscription"
-	redis_sub "github.com/xiaodingding/iotfast/server/mqtt/persistence/subscription/redis"
-	"github.com/xiaodingding/iotfast/server/mqtt/persistence/unack"
-	redis_unack "github.com/xiaodingding/iotfast/server/mqtt/persistence/unack/redis"
+	"github.com/morgeq/iotfast/server/mqtt/persistence/queue"
+	redis_queue "github.com/morgeq/iotfast/server/mqtt/persistence/queue/redis"
+	"github.com/morgeq/iotfast/server/mqtt/persistence/session"
+	redis_sess "github.com/morgeq/iotfast/server/mqtt/persistence/session/redis"
+	"github.com/morgeq/iotfast/server/mqtt/persistence/subscription"
+	redis_sub "github.com/morgeq/iotfast/server/mqtt/persistence/subscription/redis"
+	"github.com/morgeq/iotfast/server/mqtt/persistence/unack"
+	redis_unack "github.com/morgeq/iotfast/server/mqtt/persistence/unack/redis"
 
-	"github.com/xiaodingding/iotfast/server/mqtt/config"
+	"github.com/morgeq/iotfast/server/mqtt/config"
 
-	"github.com/xiaodingding/iotfast/server/mqtt/server"
+	"github.com/morgeq/iotfast/server/mqtt/server"
 )
 
 func init() {

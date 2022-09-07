@@ -5,7 +5,7 @@
 package retained
 
 import (
-	gmqtt  "github.com/xiaodingding/iotfast/server/mqtt"
+	gmqtt  "github.com/morgeq/iotfast/server/mqtt"
 	gomock "github.com/golang/mock/gomock"
 	reflect "reflect"
 )

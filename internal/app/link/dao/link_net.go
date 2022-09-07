@@ -8,7 +8,7 @@
 package dao
 
 import (
-	"github.com/xiaodingding/iotfast/internal/app/link/dao/internal"
+	"github.com/morgeq/iotfast/internal/app/link/dao/internal"
 	// "github.com/gogf/gf/v2/os/gtime"
 )
 

@@ -4,11 +4,11 @@ import (
 	"testing"
 	"time"
 
-	gmqtt "github.com/xiaodingding/iotfast/server/mqtt"
+	gmqtt "github.com/morgeq/iotfast/server/mqtt"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/xiaodingding/iotfast/server/mqtt/pkg/packets"
+	"github.com/morgeq/iotfast/server/mqtt/pkg/packets"
 )
 
 func assertElemEqual(a *assert.Assertions, expected, actual *Elem) {

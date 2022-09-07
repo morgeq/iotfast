@@ -8,10 +8,10 @@ import (
 	"github.com/hashicorp/serf/serf"
 	"github.com/stretchr/testify/assert"
 
-	gmqtt "github.com/xiaodingding/iotfast/server/mqtt"
-	"github.com/xiaodingding/iotfast/server/mqtt/persistence/subscription/mem"
-	"github.com/xiaodingding/iotfast/server/mqtt/retained"
-	"github.com/xiaodingding/iotfast/server/mqtt/retained/trie"
+	gmqtt "github.com/morgeq/iotfast/server/mqtt"
+	"github.com/morgeq/iotfast/server/mqtt/persistence/subscription/mem"
+	"github.com/morgeq/iotfast/server/mqtt/retained"
+	"github.com/morgeq/iotfast/server/mqtt/retained/trie"
 )
 
 func TestPeer_initStream_CleanStart(t *testing.T) {

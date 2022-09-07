@@ -10,7 +10,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	shm "github.com/xiaodingding/iotfast/plugin/internal/shared_memory"
+	shm "github.com/morgeq/iotfast/plugin/internal/shared_memory"
 )
 
 type SharedMemorySegment struct {

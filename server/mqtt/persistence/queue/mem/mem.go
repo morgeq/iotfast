@@ -7,11 +7,11 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/xiaodingding/iotfast/server/mqtt/pkg/packets"
+	"github.com/morgeq/iotfast/server/mqtt/pkg/packets"
 
-	"github.com/xiaodingding/iotfast/server/mqtt/persistence/queue"
+	"github.com/morgeq/iotfast/server/mqtt/persistence/queue"
 
-	"github.com/xiaodingding/iotfast/server/mqtt/server"
+	"github.com/morgeq/iotfast/server/mqtt/server"
 )
 
 var _ queue.Store = (*Queue)(nil)

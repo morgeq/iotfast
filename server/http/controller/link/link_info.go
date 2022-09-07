@@ -10,9 +10,9 @@ package link
 import (
 	"context"
 
-	"github.com/xiaodingding/iotfast/api/v1/link"
-	"github.com/xiaodingding/iotfast/internal/app/link/service"
-	systemConsts "github.com/xiaodingding/iotfast/internal/app/system/consts"
+	"github.com/morgeq/iotfast/api/v1/link"
+	"github.com/morgeq/iotfast/internal/app/link/service"
+	systemConsts "github.com/morgeq/iotfast/internal/app/system/consts"
 )
 
 type linkInfoController struct {

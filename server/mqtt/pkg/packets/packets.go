@@ -8,7 +8,7 @@ import (
 	"io"
 	"unicode/utf8"
 
-	"github.com/xiaodingding/iotfast/server/mqtt/pkg/codes"
+	"github.com/morgeq/iotfast/server/mqtt/pkg/codes"
 )
 
 // Error type

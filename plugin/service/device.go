@@ -6,8 +6,8 @@ import (
 
 	"github.com/gogf/gf/errors/gerror"
 	"github.com/gogf/gf/v2/frame/g"
-	linkService "github.com/xiaodingding/iotfast/internal/app/link/service"
-	server "github.com/xiaodingding/iotfast/plugin/server"
+	linkService "github.com/morgeq/iotfast/internal/app/link/service"
+	server "github.com/morgeq/iotfast/plugin/server"
 )
 
 func init() {

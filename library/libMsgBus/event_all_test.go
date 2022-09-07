@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	event "github.com/xiaodingding/iotfast/library/libMsgBus"
+	event "github.com/morgeq/iotfast/library/libMsgBus"
 
 	"github.com/stretchr/testify/assert"
 )

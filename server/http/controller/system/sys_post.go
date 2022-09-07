@@ -10,8 +10,8 @@ package controller
 import (
 	"context"
 
-	"github.com/xiaodingding/iotfast/api/v1/system"
-	"github.com/xiaodingding/iotfast/internal/app/system/service"
+	"github.com/morgeq/iotfast/api/v1/system"
+	"github.com/morgeq/iotfast/internal/app/system/service"
 )
 
 var Post = postController{}

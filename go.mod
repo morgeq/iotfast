@@ -1,4 +1,4 @@
-module github.com/xiaodingding/iotfast
+module github.com/morgeq/iotfast
 
 go 1.15
 

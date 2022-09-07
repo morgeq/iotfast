@@ -1,7 +1,7 @@
 package prometheus
 
 import (
-	"github.com/xiaodingding/iotfast/server/mqtt/server"
+	"github.com/morgeq/iotfast/server/mqtt/server"
 )
 
 func (p *Prometheus) HookWrapper() server.HookWrapper {

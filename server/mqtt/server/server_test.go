@@ -6,11 +6,11 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 
-	gmqtt "github.com/xiaodingding/iotfast/server/mqtt"
-	"github.com/xiaodingding/iotfast/server/mqtt/config"
-	"github.com/xiaodingding/iotfast/server/mqtt/persistence/queue"
-	"github.com/xiaodingding/iotfast/server/mqtt/persistence/subscription/mem"
-	"github.com/xiaodingding/iotfast/server/mqtt/pkg/packets"
+	gmqtt "github.com/morgeq/iotfast/server/mqtt"
+	"github.com/morgeq/iotfast/server/mqtt/config"
+	"github.com/morgeq/iotfast/server/mqtt/persistence/queue"
+	"github.com/morgeq/iotfast/server/mqtt/persistence/subscription/mem"
+	"github.com/morgeq/iotfast/server/mqtt/pkg/packets"
 )
 
 type testDeliverMsg struct {

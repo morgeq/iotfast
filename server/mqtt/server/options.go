@@ -3,9 +3,9 @@ package server
 import (
 	"net"
 
-	"github.com/xiaodingding/iotfast/server/mqtt/config"
+	"github.com/morgeq/iotfast/server/mqtt/config"
 
-	"github.com/xiaodingding/iotfast/server/mqtt/retained"
+	"github.com/morgeq/iotfast/server/mqtt/retained"
 
 	"go.uber.org/zap"
 )

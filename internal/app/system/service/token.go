@@ -11,9 +11,9 @@ package service
 import (
 	"sync"
 
-	"github.com/xiaodingding/iotfast/internal/app/common/model"
-	commonService "github.com/xiaodingding/iotfast/internal/app/common/service"
-	"github.com/xiaodingding/iotfast/library/libErr"
+	"github.com/morgeq/iotfast/internal/app/common/model"
+	commonService "github.com/morgeq/iotfast/internal/app/common/service"
+	"github.com/morgeq/iotfast/library/libErr"
 
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/os/gctx"

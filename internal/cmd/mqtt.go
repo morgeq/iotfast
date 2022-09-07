@@ -12,22 +12,22 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/xiaodingding/iotfast/library/libErr"
+	"github.com/morgeq/iotfast/library/libErr"
 
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"
 
-	"github.com/xiaodingding/iotfast/server/mqtt/config"
-	"github.com/xiaodingding/iotfast/server/mqtt/pkg/pidfile"
-	"github.com/xiaodingding/iotfast/server/mqtt/server"
+	"github.com/morgeq/iotfast/server/mqtt/config"
+	"github.com/morgeq/iotfast/server/mqtt/pkg/pidfile"
+	"github.com/morgeq/iotfast/server/mqtt/server"
 
-	_ "github.com/xiaodingding/iotfast/server/mqtt/persistence"
-	_ "github.com/xiaodingding/iotfast/server/mqtt/plugin/prometheus"
-	_ "github.com/xiaodingding/iotfast/server/mqtt/topicalias/fifo"
+	_ "github.com/morgeq/iotfast/server/mqtt/persistence"
+	_ "github.com/morgeq/iotfast/server/mqtt/plugin/prometheus"
+	_ "github.com/morgeq/iotfast/server/mqtt/topicalias/fifo"
 	// 在这里import所有的插件（为了调用对应的init方法）
-	//  _ "github.com/xiaodingding/iotfast/server/mqtt/plugin/admin"
-	//  _ "github.com/xiaodingding/iotfast/server/mqtt/plugin/auth"
-	//  _ "github.com/xiaodingding/iotfast/server/mqtt/plugin/prometheus"
+	//  _ "github.com/morgeq/iotfast/server/mqtt/plugin/admin"
+	//  _ "github.com/morgeq/iotfast/server/mqtt/plugin/auth"
+	//  _ "github.com/morgeq/iotfast/server/mqtt/plugin/prometheus"
 	// _ "path/to/your/plugin"
 )
 

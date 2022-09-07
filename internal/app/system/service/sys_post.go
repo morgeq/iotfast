@@ -11,12 +11,12 @@ package service
 import (
 	"context"
 
-	"github.com/xiaodingding/iotfast/api/v1/system"
-	"github.com/xiaodingding/iotfast/internal/app/system/consts"
-	"github.com/xiaodingding/iotfast/internal/app/system/dao"
-	"github.com/xiaodingding/iotfast/internal/app/system/model/do"
-	"github.com/xiaodingding/iotfast/internal/app/system/model/entity"
-	"github.com/xiaodingding/iotfast/library/libErr"
+	"github.com/morgeq/iotfast/api/v1/system"
+	"github.com/morgeq/iotfast/internal/app/system/consts"
+	"github.com/morgeq/iotfast/internal/app/system/dao"
+	"github.com/morgeq/iotfast/internal/app/system/model/do"
+	"github.com/morgeq/iotfast/internal/app/system/model/entity"
+	"github.com/morgeq/iotfast/library/libErr"
 
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/util/gconv"

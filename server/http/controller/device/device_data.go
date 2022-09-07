@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/gogf/gf/frame/g"
-	"github.com/xiaodingding/iotfast/api/v1/device"
-	"github.com/xiaodingding/iotfast/library/libCodec"
+	"github.com/morgeq/iotfast/api/v1/device"
+	"github.com/morgeq/iotfast/library/libCodec"
 )
 
 type deviceDataController struct {

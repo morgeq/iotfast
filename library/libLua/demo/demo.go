@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/xiaodingding/iotfast/library/libLua"
+	"github.com/morgeq/iotfast/library/libLua"
 )
 
 func test_sum(ctx context.Context, args ...interface{}) (interface{}, error) {

@@ -12,26 +12,26 @@ import (
 	"sync/atomic"
 	"time"
 
-	gmqtt "github.com/xiaodingding/iotfast/server/mqtt"
+	gmqtt "github.com/morgeq/iotfast/server/mqtt"
 
 	"github.com/gorilla/websocket"
 	"go.uber.org/zap"
 
-	"github.com/xiaodingding/iotfast/server/mqtt/pkg/codes"
+	"github.com/morgeq/iotfast/server/mqtt/pkg/codes"
 
-	"github.com/xiaodingding/iotfast/server/mqtt/config"
+	"github.com/morgeq/iotfast/server/mqtt/config"
 
-	"github.com/xiaodingding/iotfast/server/mqtt/persistence/queue"
-	"github.com/xiaodingding/iotfast/server/mqtt/persistence/session"
-	"github.com/xiaodingding/iotfast/server/mqtt/persistence/unack"
+	"github.com/morgeq/iotfast/server/mqtt/persistence/queue"
+	"github.com/morgeq/iotfast/server/mqtt/persistence/session"
+	"github.com/morgeq/iotfast/server/mqtt/persistence/unack"
 
-	retained_trie "github.com/xiaodingding/iotfast/server/mqtt/retained/trie"
+	retained_trie "github.com/morgeq/iotfast/server/mqtt/retained/trie"
 
-	"github.com/xiaodingding/iotfast/server/mqtt/pkg/packets"
+	"github.com/morgeq/iotfast/server/mqtt/pkg/packets"
 
-	"github.com/xiaodingding/iotfast/server/mqtt/persistence/subscription"
+	"github.com/morgeq/iotfast/server/mqtt/persistence/subscription"
 
-	"github.com/xiaodingding/iotfast/server/mqtt/retained"
+	"github.com/morgeq/iotfast/server/mqtt/retained"
 )
 
 var (

@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/xiaodingding/iotfast/server/mqtt/pkg/codes"
+	"github.com/morgeq/iotfast/server/mqtt/pkg/codes"
 )
 
 func TestReadWritePubcompPacket_v5(t *testing.T) {

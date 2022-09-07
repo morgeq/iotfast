@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	event "github.com/xiaodingding/iotfast/library/libMsgBus"
+	event "github.com/morgeq/iotfast/library/libMsgBus"
 )
 
 func TestFire_point_at_end(t *testing.T) {

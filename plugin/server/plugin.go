@@ -14,7 +14,7 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/xiaodingding/iotfast/plugin/common"
+	"github.com/morgeq/iotfast/plugin/common"
 
 	"github.com/gogf/gf/v2/encoding/gjson"
 	"github.com/gogf/gf/v2/text/gstr"

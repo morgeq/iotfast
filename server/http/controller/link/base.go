@@ -8,7 +8,7 @@
 package link
 
 import (
-	commonController "github.com/xiaodingding/iotfast/server/http/controller/common"
+	commonController "github.com/morgeq/iotfast/server/http/controller/common"
 
 	"github.com/gogf/gf/v2/net/ghttp"
 )

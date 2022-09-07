@@ -3,9 +3,9 @@ package redis
 import (
 	"github.com/gomodule/redigo/redis"
 
-	"github.com/xiaodingding/iotfast/server/mqtt/pkg/packets"
+	"github.com/morgeq/iotfast/server/mqtt/pkg/packets"
 
-	"github.com/xiaodingding/iotfast/server/mqtt/persistence/unack"
+	"github.com/morgeq/iotfast/server/mqtt/persistence/unack"
 )
 
 const (

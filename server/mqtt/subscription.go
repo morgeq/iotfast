@@ -3,7 +3,7 @@ package mqtt
 import (
 	"errors"
 
-	"github.com/xiaodingding/iotfast/server/mqtt/pkg/packets"
+	"github.com/morgeq/iotfast/server/mqtt/pkg/packets"
 )
 
 // Subscription represents a subscription in gmqtt.

@@ -8,7 +8,7 @@
 
 package model
 
-import "github.com/xiaodingding/iotfast/internal/app/system/model/entity"
+import "github.com/morgeq/iotfast/internal/app/system/model/entity"
 
 type SysDeptTreeRes struct {
 	*entity.SysDept

@@ -6,10 +6,10 @@ import (
 
 	// _ "github.com/mattn/go-sqlite3"
 
-	"github.com/xiaodingding/iotfast/internal/consts"
-	router "github.com/xiaodingding/iotfast/server/http/route"
+	"github.com/morgeq/iotfast/internal/consts"
+	router "github.com/morgeq/iotfast/server/http/route"
 
-	pl "github.com/xiaodingding/iotfast/plugin/server"
+	pl "github.com/morgeq/iotfast/plugin/server"
 
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/net/ghttp"

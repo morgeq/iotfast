@@ -10,10 +10,10 @@ import (
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/os/gtime"
 	"github.com/gogf/gf/v2/util/gconv"
-	"github.com/xiaodingding/iotfast/api/v1/device"
-	DeviceConsts "github.com/xiaodingding/iotfast/internal/app/device/consts"
-	"github.com/xiaodingding/iotfast/internal/app/device/model"
-	deviceService "github.com/xiaodingding/iotfast/internal/app/device/service"
+	"github.com/morgeq/iotfast/api/v1/device"
+	DeviceConsts "github.com/morgeq/iotfast/internal/app/device/consts"
+	"github.com/morgeq/iotfast/internal/app/device/model"
+	deviceService "github.com/morgeq/iotfast/internal/app/device/service"
 )
 
 type mqttCodecImpl struct {

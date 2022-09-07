@@ -12,11 +12,11 @@ import (
 
 	"github.com/gogf/gf/v2/errors/gerror"
 	"github.com/gogf/gf/v2/frame/g"
-	"github.com/xiaodingding/iotfast/api/v1/link"
-	"github.com/xiaodingding/iotfast/internal/app/link/dao"
-	"github.com/xiaodingding/iotfast/internal/app/link/model/entity"
-	systemConsts "github.com/xiaodingding/iotfast/internal/app/system/consts"
-	"github.com/xiaodingding/iotfast/library/libErr"
+	"github.com/morgeq/iotfast/api/v1/link"
+	"github.com/morgeq/iotfast/internal/app/link/dao"
+	"github.com/morgeq/iotfast/internal/app/link/model/entity"
+	systemConsts "github.com/morgeq/iotfast/internal/app/system/consts"
+	"github.com/morgeq/iotfast/library/libErr"
 )
 
 //type linkInfo struct {

@@ -1,7 +1,7 @@
 // ==========================================================================
 // 物联网快速开发自动生成业务逻辑层相关代码，只生成一次，按需修改,再次生成不会覆盖.
 // 生成日期：2022-07-02 23:41:34
-// 生成路径: github.com/xiaodingding/iotfast/internal/app/service/mqtt_topic.go
+// 生成路径: github.com/morgeq/iotfast/internal/app/service/mqtt_topic.go
 // 生成人：dwx
 // ==========================================================================
 
@@ -10,11 +10,11 @@ package service
 import (
 	"context"
 
-	"github.com/xiaodingding/iotfast/api/v1/mqtt"
-	"github.com/xiaodingding/iotfast/internal/app/mqtt/dao"
-	"github.com/xiaodingding/iotfast/internal/app/mqtt/model/entity"
-	systemConsts "github.com/xiaodingding/iotfast/internal/app/system/consts"
-	"github.com/xiaodingding/iotfast/library/libErr"
+	"github.com/morgeq/iotfast/api/v1/mqtt"
+	"github.com/morgeq/iotfast/internal/app/mqtt/dao"
+	"github.com/morgeq/iotfast/internal/app/mqtt/model/entity"
+	systemConsts "github.com/morgeq/iotfast/internal/app/system/consts"
+	"github.com/morgeq/iotfast/library/libErr"
 
 	"github.com/gogf/gf/v2/errors/gerror"
 	"github.com/gogf/gf/v2/frame/g"

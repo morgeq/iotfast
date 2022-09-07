@@ -9,7 +9,7 @@ import (
 
 	"github.com/gogf/gf/v2/errors/gerror"
 	"github.com/gogf/gf/v2/os/gtime"
-	"github.com/xiaodingding/iotfast/internal/app/device/model"
+	"github.com/morgeq/iotfast/internal/app/device/model"
 )
 
 var (

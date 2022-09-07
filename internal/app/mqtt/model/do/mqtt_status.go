@@ -1,7 +1,7 @@
 // ==========================================================================
 // 物联网快速开发自动生成model代码，无需手动修改，重新生成会自动覆盖.
 // 生成日期：2022-07-15 22:11:03
-// 生成路径: github.com/xiaodingding/iotfast/internal/app/model/do/mqtt_status.go
+// 生成路径: github.com/morgeq/iotfast/internal/app/model/do/mqtt_status.go
 // 生成人：dwx
 // ==========================================================================
 

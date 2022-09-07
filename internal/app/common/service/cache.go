@@ -10,8 +10,8 @@ package service
 import (
 	"sync"
 
-	"github.com/xiaodingding/iotfast/internal/app/common/consts"
-	libCache "github.com/xiaodingding/iotfast/library/libCache"
+	"github.com/morgeq/iotfast/internal/app/common/consts"
+	libCache "github.com/morgeq/iotfast/library/libCache"
 
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/os/gctx"

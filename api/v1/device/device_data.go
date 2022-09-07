@@ -2,7 +2,7 @@ package device
 
 import (
 
-	//"github.com/xiaodingding/iotfast/internal/app/device/model"
+	//"github.com/morgeq/iotfast/internal/app/device/model"
 
 	"github.com/gogf/gf/v2/frame/g"
 )

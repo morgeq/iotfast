@@ -5,11 +5,11 @@
 package server
 
 import (
-	config "github.com/xiaodingding/iotfast/server/mqtt/config"
-	queue "github.com/xiaodingding/iotfast/server/mqtt/persistence/queue"
-	session "github.com/xiaodingding/iotfast/server/mqtt/persistence/session"
-	subscription "github.com/xiaodingding/iotfast/server/mqtt/persistence/subscription"
-	unack "github.com/xiaodingding/iotfast/server/mqtt/persistence/unack"
+	config "github.com/morgeq/iotfast/server/mqtt/config"
+	queue "github.com/morgeq/iotfast/server/mqtt/persistence/queue"
+	session "github.com/morgeq/iotfast/server/mqtt/persistence/session"
+	subscription "github.com/morgeq/iotfast/server/mqtt/persistence/subscription"
+	unack "github.com/morgeq/iotfast/server/mqtt/persistence/unack"
 	gomock "github.com/golang/mock/gomock"
 	reflect "reflect"
 )

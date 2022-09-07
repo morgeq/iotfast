@@ -11,8 +11,8 @@ package service
 import (
 	"context"
 
-	"github.com/xiaodingding/iotfast/internal/app/system/consts"
-	"github.com/xiaodingding/iotfast/internal/app/system/model"
+	"github.com/morgeq/iotfast/internal/app/system/consts"
+	"github.com/morgeq/iotfast/internal/app/system/model"
 
 	"github.com/gogf/gf/v2/net/ghttp"
 )

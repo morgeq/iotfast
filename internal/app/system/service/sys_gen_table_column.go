@@ -12,10 +12,10 @@ import (
 	"context"
 	"strings"
 
-	"github.com/xiaodingding/iotfast/internal/app/system/dao"
-	"github.com/xiaodingding/iotfast/internal/app/system/model"
-	sysModel "github.com/xiaodingding/iotfast/internal/app/system/model"
-	"github.com/xiaodingding/iotfast/internal/app/system/model/entity"
+	"github.com/morgeq/iotfast/internal/app/system/dao"
+	"github.com/morgeq/iotfast/internal/app/system/model"
+	sysModel "github.com/morgeq/iotfast/internal/app/system/model"
+	"github.com/morgeq/iotfast/internal/app/system/model/entity"
 
 	"github.com/gogf/gf/v2/database/gdb"
 	"github.com/gogf/gf/v2/errors/gerror"

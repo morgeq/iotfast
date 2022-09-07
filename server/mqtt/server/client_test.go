@@ -16,16 +16,16 @@ import (
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/proto"
 
-	gmqtt "github.com/xiaodingding/iotfast/server/mqtt"
-	"github.com/xiaodingding/iotfast/server/mqtt/config"
-	"github.com/xiaodingding/iotfast/server/mqtt/persistence/queue"
-	"github.com/xiaodingding/iotfast/server/mqtt/persistence/subscription"
-	"github.com/xiaodingding/iotfast/server/mqtt/persistence/subscription/mem"
-	"github.com/xiaodingding/iotfast/server/mqtt/persistence/unack"
-	unack_mem "github.com/xiaodingding/iotfast/server/mqtt/persistence/unack/mem"
-	"github.com/xiaodingding/iotfast/server/mqtt/pkg/codes"
-	"github.com/xiaodingding/iotfast/server/mqtt/pkg/packets"
-	"github.com/xiaodingding/iotfast/server/mqtt/retained"
+	gmqtt "github.com/morgeq/iotfast/server/mqtt"
+	"github.com/morgeq/iotfast/server/mqtt/config"
+	"github.com/morgeq/iotfast/server/mqtt/persistence/queue"
+	"github.com/morgeq/iotfast/server/mqtt/persistence/subscription"
+	"github.com/morgeq/iotfast/server/mqtt/persistence/subscription/mem"
+	"github.com/morgeq/iotfast/server/mqtt/persistence/unack"
+	unack_mem "github.com/morgeq/iotfast/server/mqtt/persistence/unack/mem"
+	"github.com/morgeq/iotfast/server/mqtt/pkg/codes"
+	"github.com/morgeq/iotfast/server/mqtt/pkg/packets"
+	"github.com/morgeq/iotfast/server/mqtt/retained"
 )
 
 const testRedeliveryInternal = 10 * time.Second

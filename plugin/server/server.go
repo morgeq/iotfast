@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xiaodingding/iotfast/library/libUtils"
-	"github.com/xiaodingding/iotfast/plugin/common"
+	"github.com/morgeq/iotfast/library/libUtils"
+	"github.com/morgeq/iotfast/plugin/common"
 
 	"github.com/gogf/gf/v2/frame/g"
 	// "net/rpc"
@@ -80,7 +80,7 @@ func defaultServer() *server {
 		sessions:  make(map[string]*sessionClient),
 		plugins:   make(map[string]*Plugin),
 		proto:     "unix",
-		unixdir:   os.TempDir() + "github.com/xiaodingding/iotfast/plugin",
+		unixdir:   os.TempDir() + "github.com/morgeq/iotfast/plugin",
 		conn:      new(unixConn),
 		pluginDir: ".",
 		topics:    TopicNew(),

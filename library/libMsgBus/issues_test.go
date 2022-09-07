@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	event "github.com/xiaodingding/iotfast/library/libMsgBus"
+	event "github.com/morgeq/iotfast/library/libMsgBus"
 )
 
 type testNotify struct{}

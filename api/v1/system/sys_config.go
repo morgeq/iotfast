@@ -9,8 +9,8 @@
 package system
 
 import (
-	commonApi "github.com/xiaodingding/iotfast/api/v1/common"
-	"github.com/xiaodingding/iotfast/internal/app/system/model/entity"
+	commonApi "github.com/morgeq/iotfast/api/v1/common"
+	"github.com/morgeq/iotfast/internal/app/system/model/entity"
 
 	"github.com/gogf/gf/v2/frame/g"
 )

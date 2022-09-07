@@ -10,8 +10,8 @@ package common
 import (
 	"context"
 
-	"github.com/xiaodingding/iotfast/api/v1/common"
-	"github.com/xiaodingding/iotfast/internal/app/common/service"
+	"github.com/morgeq/iotfast/api/v1/common"
+	"github.com/morgeq/iotfast/internal/app/common/service"
 )
 
 var Captcha = captchaController{}

@@ -6,9 +6,9 @@ import (
 	"os"
 	"time"
 
-	client "github.com/xiaodingding/iotfast/plugin/client"
-	"github.com/xiaodingding/iotfast/plugin/common"
-	plugin "github.com/xiaodingding/iotfast/plugin/common"
+	client "github.com/morgeq/iotfast/plugin/client"
+	"github.com/morgeq/iotfast/plugin/common"
+	plugin "github.com/morgeq/iotfast/plugin/common"
 
 	"github.com/gogf/gf/text/gstr"
 )

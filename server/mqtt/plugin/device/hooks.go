@@ -5,16 +5,16 @@ import (
 
 	"github.com/gogf/gf/v2/frame/g"
 
-	mqttApi "github.com/xiaodingding/iotfast/api/v1/mqtt"
-	mqttService "github.com/xiaodingding/iotfast/internal/app/mqtt/service"
+	mqttApi "github.com/morgeq/iotfast/api/v1/mqtt"
+	mqttService "github.com/morgeq/iotfast/internal/app/mqtt/service"
 
-	deviceConst "github.com/xiaodingding/iotfast/internal/app/device/consts"
-	deviceService "github.com/xiaodingding/iotfast/internal/app/device/service"
-	"github.com/xiaodingding/iotfast/library/libCodec"
-	gmqtt "github.com/xiaodingding/iotfast/server/mqtt"
-	"github.com/xiaodingding/iotfast/server/mqtt/pkg/codes"
-	"github.com/xiaodingding/iotfast/server/mqtt/pkg/packets"
-	"github.com/xiaodingding/iotfast/server/mqtt/server"
+	deviceConst "github.com/morgeq/iotfast/internal/app/device/consts"
+	deviceService "github.com/morgeq/iotfast/internal/app/device/service"
+	"github.com/morgeq/iotfast/library/libCodec"
+	gmqtt "github.com/morgeq/iotfast/server/mqtt"
+	"github.com/morgeq/iotfast/server/mqtt/pkg/codes"
+	"github.com/morgeq/iotfast/server/mqtt/pkg/packets"
+	"github.com/morgeq/iotfast/server/mqtt/server"
 
 	"go.uber.org/zap"
 )
