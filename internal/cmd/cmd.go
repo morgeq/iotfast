@@ -15,7 +15,7 @@ import (
 	"github.com/gogf/gf/v2/net/ghttp"
 	"github.com/gogf/gf/v2/os/gcmd"
 
-	"github.com/gogf/gf/v2/protocol/goai"
+	"github.com/gogf/gf/v2/net/goai"
 )
 
 const (
